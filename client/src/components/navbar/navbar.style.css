@@ -1,0 +1,16 @@
+.navbar-cont{
+    display: flex;
+    background-color:#52CC52;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.navbar-img-cont img{
+     width: 3rem
+}
+
+.navbar-links-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}

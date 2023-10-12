@@ -1,0 +1,1 @@
+export const GET_TEMPERAMENTS = "GET_TEMPERAMENTS"

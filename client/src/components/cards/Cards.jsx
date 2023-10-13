@@ -5,8 +5,8 @@ import Card from '../card/Card'
 import './cards.style.css'
 const Cards = ({allDogs}) => {
   return (
-    <div>
-      {allDogs.map(d => <Card name={d.name}temperament ={d.temperament}weight={d.weight}/>)}
+    <div className='cards-cont'>
+      {allDogs.map(dog => <Card name={dog.name}temperament ={dog.temperament}weight={dog.weight}image={dog.image}/>)}
     </div>
   )
 }

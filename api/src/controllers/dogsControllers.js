@@ -46,7 +46,7 @@ const getDogById = async (id, source) => {
 const getAllDogs = async () => {
     const dogBD = await Dog.findAll()
     const infoApi = (await axios.get(`${URL}?key=${API_KEY}`)).data;
-    const dogsApi = infoCleaner([...dogBD, ...infoApi].reverse()); //
+    const dogsApi = infoCleaner([...dogBD, ...infoApi]); //
     return dogsApi;
 }
 

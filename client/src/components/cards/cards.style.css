@@ -1,6 +1,9 @@
 .cards-cont {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 80vh;
+    align-items: center;
+    height: 180vh;
+    width: 100%;
+    flex-wrap: wrap;
+
 }

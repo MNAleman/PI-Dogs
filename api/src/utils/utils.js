@@ -3,7 +3,7 @@ const infoCleaner = (dogs) => {
         return dogs.map(dog => {
             return {
                 id: dog.id,
-                image: dog.reference_image_id,
+                image: `https://cdn2.thedogapi.com/images/${dog?.reference_image_id}.jpg`,
                 name: dog.name,
                 height: dog.height,
                 weight: dog.weight,

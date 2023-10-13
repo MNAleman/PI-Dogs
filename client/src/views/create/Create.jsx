@@ -210,8 +210,8 @@ const Create = () => {
             const newDog = {
                 image: state.imagen,
                 name: state.raza,
-                height: `${state.alturaMin} - ${state.alturaMax} Cm`,
-                weight: `${state.pesoMin} - ${state.pesoMax} Kg.`,
+                weight: {metric:`${state.pesoMin} - ${state.pesoMax} `,},
+                height: {metric:`${state.alturaMin} - ${state.alturaMax} `,},
                 life_span: state.añosDeVida,
                 temperament: state.temperamentos,
             }

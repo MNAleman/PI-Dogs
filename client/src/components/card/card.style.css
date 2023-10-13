@@ -4,6 +4,33 @@
      width: 15rem;
      border-radius: 15px;
      margin: 20px;
-      
-      
+     
+
+     
+}
+
+/* .cards-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    flex-wrap: wrap;
+} */
+
+.card-img-cont img{
+    width: 5rem;
+}
+
+.create-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-cont form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
 }
